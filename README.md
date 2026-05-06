@@ -1,4 +1,4 @@
-Azul Marino: #00385F (Usado en el texto principal y la parte superior del icono).
+Azul Marino: #012D50 (Usado en el texto principal y la parte superior del icono).
 
 Beige/Dorado: #C8A870 (Usado en el texto secundario, la línea inferior de la 'G' y el techo de la casa).
 
