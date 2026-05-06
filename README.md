@@ -1,5 +1,34 @@
-Azul Marino: #012D50 (Usado en el texto principal y la parte superior del icono).
+# Graciano Inmobiliaria
 
-Beige/Dorado: #C8A870 (Usado en el texto secundario, la línea inferior de la 'G' y el techo de la casa).
+Este proyecto es una landing page para una inmobiliaria. La idea es mostrar propiedades destacadas, los servicios y un contacto rapido, todo con un look limpio y elegante.
 
-background-color: #F5F0E8; (Usado como fondo del logo para resaltar los colores principales).
+Autor: Graciano Gonzalez Fausto
+
+## Caracteristicas
+- Estructura semantica HTML5
+- Diseno responsive basico
+- Catalogo de propiedades
+- Formulario de contacto
+- Seccion de servicios
+
+## Estructura
+```
+graciano-inmobiliaria/
+├── index.html
+├── css/
+│   └── style.css
+├── images/
+└── video/
+```
+
+## Uso
+- Descargar o clonar el proyecto
+- Abrir index.html en el navegador
+- Personalizar contenido e imagenes
+
+## Tecnologias
+- HTML5
+- CSS3
+
+## Licencia
+Uso libre para proyectos educativos o personales.
