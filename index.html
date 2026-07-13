@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
 </head>
+<body>
     <header id="header">
         <div class="container">
             <h1 class="logo">
@@ -31,8 +32,7 @@
                 </ul>
             </nav>
         </div>
-    </header>
-<body>  
+    </header>  
     <main>
         <section class="hero" id="hero">
             <div class="overlay"></div>  <!-- capa oscura -->
@@ -139,6 +139,46 @@
             </div>
 
         </section>
+        <section class="productos-section" id="productos">
+            <h2>Accesorios y Equipamientos</h2>
+            <p>Mejora tu propiedad con nuestros productos</p>
+            
+            <div id="container-carrito">
+                
+                <!-- Lista de productos disponibles -->
+                <div id="lista-productos">
+                    <h3>Productos disponibles</h3>
+                    <ul id="lista-productos-ul" class="productos-lista">
+                        <!-- Completar desde JS -->
+                    </ul>
+                </div>
+
+                <!-- Carrito -->
+                <aside id="carrito-resumen">
+                    <h3>Resumen del Carrito</h3>
+                    <ul id="carrito-items-ul" class="carrito-items">
+                        <!-- Completar desde JS -->
+                    </ul>
+                    
+                    <!-- Mensaje si carrito vacío -->
+                    <p id="carrito-vacio" class="carrito-vacio">El carrito está vacío</p>
+                    
+                    <div id="carrito-total">
+                        <span>Total:</span>
+                        <strong id="monto-carrito">$0</strong>
+                    </div>
+                    
+                    <div id="acciones-carrito">
+                        <button id="vaciar-carrito" class="btn-secundario">Vaciar</button>
+                        <button id="pagar-carrito" class="btn">Pagar</button>
+                    </div>
+                    
+                    <p class="disclaimer">Los pagos de este carrito son ficticios, solo con el fin de demostrar el funcionamiento.</p>
+                </aside>
+            </div>
+        </section>
+
+        
         <section class="contacto" id="contacto">
             <h2>Contactanos</h2>
             <p>Estamos para ayudarte</p>
