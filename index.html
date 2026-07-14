@@ -14,7 +14,6 @@
 
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
 </head>
 <body>
     <header id="header">
@@ -159,13 +158,15 @@
                     <ul id="carrito-items-ul" class="carrito-items">
                         <!-- Completar desde JS -->
                     </ul>
-                    
-                    <!-- Mensaje si carrito vacío -->
-                    <p id="carrito-vacio" class="carrito-vacio">El carrito está vacío</p>
-                    
                     <div id="carrito-total">
-                        <span>Total:</span>
-                        <strong id="monto-carrito">$0</strong>
+                        <div class="total-fila">
+                            <span>Productos:</span>
+                            <strong id="monto-productos">0</strong>
+                        </div>
+                        <div class="total-fila">
+                            <span>Total:</span>
+                            <strong id="monto-carrito">$0</strong>
+                        </div>
                     </div>
                     
                     <div id="acciones-carrito">
@@ -248,5 +249,7 @@
             <p>© 2026 Graciano Inmobiliaria | Todos los derechos reservados</p>
             </div>
     </footer>
+    <script src="js/carrito.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </body>
 </html>
